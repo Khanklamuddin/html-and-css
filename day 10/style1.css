@@ -1,0 +1,49 @@
+ .box {
+    height: 100px;
+    width: 200px;
+    background-color: pink; 
+ 
+    animation-name: coloranimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    transition-delay: 0;
+    animation-iteration-count: 3;
+    animation-direction: normal; 
+ 
+    /* animation: colanimate 3s ease-in 0s 3 normal; */
+}
+
+@keyframes colanimate {
+    0% {
+        
+        background-color: green;
+
+    }
+    50% {
+        background-color: blue;
+       
+    }
+    100%{
+        background-color: yellow;
+    }
+    
+}
+
+@keyframes fontanimation {
+    from {font-size: 20px;}
+    to {
+        font-size: 40px;
+    }
+    
+}
+
+@keyframes coloranimate {
+    from {
+        background-color: green;
+
+    }
+    to {
+        background-color: blue;
+    }
+    
+} 

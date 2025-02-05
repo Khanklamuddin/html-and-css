@@ -1,0 +1,49 @@
+h1 {
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+h2{
+    background-color: aqua;
+    color: brown;
+}
+
+@media (width: 400px){
+    h1 {
+        background-color: red;
+        color: white;
+    }
+    
+    div{
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+    }
+}
+
+@media (max-width: 800px){
+    h1{
+        background-color: greenyellow;
+    }
+}
+
+
+@media (max-width: 400px){
+    h1{
+        background-color: pink;
+    }
+}
+
+@media(min-width: 300px) and (max-width: 400px){
+    div{
+        background-color: green;
+    }
+}
+
+@media(orintation:landscape){
+    h2{
+        background-color: aqua;
+        color: brown;
+    }
+}
+

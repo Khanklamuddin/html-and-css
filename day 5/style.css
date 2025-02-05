@@ -1,0 +1,74 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: blue; */
+
+
+}
+h3,h1{
+    color: red;
+
+}
+
+#login{
+    background-color: white;
+    color: black;
+}
+#signup{
+    background-color: maroon;
+    color: yellow;
+}
+.upvote{
+    background-color: blue;
+}
+p a{
+    color: purple;
+    background-color: yellow;
+}
+p+h3{
+    text-decoration: underline;
+
+}
+div>input{
+    background-color: darkmagenta;
+}
+input[type="text"]{
+    color: red;
+}
+input[type="password"]{
+    color: green;
+}
+input[type]{
+    background-color: whitesmoke;
+}
+button:hover{
+    background-color: black;
+    color: white;
+
+}
+button:active{
+    background-color: rgb(216, 49, 77);
+
+}
+input[type="radio"]:checked+label{
+    color: red;
+    font-weight: bold;
+}
+/* div:nth-of-type(3n){
+    background-color: green;
+} */
+
+h1::first-letter{
+    color: black;
+}
+p::first-line{
+    color: red;
+}
+p::selection{
+    background-color: limegreen;
+}
+h3{
+    background-color: yellow;
+}
+h3{
+    background-color: blue;
+}
